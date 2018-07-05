@@ -1,9 +1,9 @@
-a=input()
+q=input()
 b="aeiou"
 c="bcdfghjklmnpqrstvwyz"
-if a in b:
+if q in b:
     print("Vowel")
-elif a in c:
+elif q in c:
     print("Consonant")
 else:
     print("Invalid")
