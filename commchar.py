@@ -1,6 +1,6 @@
-s1=input("Enter first string:")
-s2=input("Enter second string:")
-a=list(set(s1)&set(s2))
+a=input("Enter first string:")
+b=input("Enter second string:")
+c=list(set(a)&set(b))
 print("The common letters are:")
-for i in a:
+for i in c:
     print(i)
