@@ -1,0 +1,12 @@
+arr=[int(a) for a in input().split()]
+def linSearch(arr, n):
+    for i in range(n):
+        if arr[i] is i:
+            return i
+        else:
+            return -1
+ 
+#arr = [-10, -1, 0, 3, 10, 11, 30, 50, 100]
+n = len(arr)
+print("Fixed Point is " + str(linSearch(arr,n)))
+
