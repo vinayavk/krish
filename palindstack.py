@@ -13,7 +13,7 @@ class Stack:
  
  
 s = Stack()
-text = input('Please enter the string: ')
+text = input('')
  
 for cha in text:
     s.push(cha)
@@ -23,6 +23,6 @@ while not s.is_empty():
     reversed_text = reversed_text + s.pop()
  
 if text == reversed_text:
-    print('The string is a palindrome.')
+    print('yes')
 else:
-    print('The string is not a palindrome.')
+    print('no')
