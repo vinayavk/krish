@@ -10,6 +10,6 @@ void main()
 	}
 	printf("\n %d",count);
 	
-	rturn 0;
+	return 0;
 	
 }
