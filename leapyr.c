@@ -12,15 +12,15 @@ int main()
         {
             // year is divisible by 400, hence the year is a leap year
             if ( year%400 == 0)
-                printf("%d yes", year);
+                printf("yes");
             else
-                printf("%d no", year);
+                printf("no");
         }
         else
-            printf("%d yes", year );
+            printf("yes");
     }
     else
-        printf("%d no", year);
+        printf("no");
     
     return 0;
 }
