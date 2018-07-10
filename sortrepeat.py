@@ -1,13 +1,7 @@
-def Print(list1):
-     
-    final_list = []
-    for num in range(len(list1)):
-        i = num + 1
-         
-        for i in range(i, len(list1)):
-            if list1[num]== list1[i]:
-                final_list.append(list1[num])
- 
-    return final_list
-list1 = [2, 1, 3, 30, 3, 2, 1, 4]
-print(Print(list1))
+list1=[int(x) for x in input().split()]
+final_list = []
+for num in range(len(list1)):
+    for i in range(num+1, len(list1)):
+        if(list1[num]==list1[i]):
+            final_list.append(list1[num])
+print(final_list)
