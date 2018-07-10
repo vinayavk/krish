@@ -1,2 +1,2 @@
-B='this is krish'
+B=input('')
 print(B.title())
