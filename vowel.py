@@ -6,4 +6,4 @@ if q in b:
 elif q in c:
     print("Consonant")
 else:
-    print("Invalid")
+    print("invalid")
