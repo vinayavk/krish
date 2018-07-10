@@ -1,18 +1,17 @@
- #include <stdio.h>
+#include <stdio.h>
+int main()
+{
+    int n1, n2, n3;
+    scanf("%d %d %d", &n1, &n2, &n3);
 
-  int main() {
-        int num, large = 0, rem = 0;
-        scanf("%d", &num);
-       while (num > 0) {
-                rem = num % 10;
+    if( n1>=n2 && n1>=n3 )
+        printf("%d", n1);
 
-                if (rem > large) {
-                        large = rem;
-                }
+    if( n2>=n1 && n2>=n3 )
+        printf("%d", n2);
 
-                num = num / 10;
-        }
+    if( n3>=n1 && n3>=n2 )
+        printf("%d", n3);
 
-        printf("%d\n", large);
-        return 0;
-  }
+    return 0;
+}
