@@ -8,6 +8,6 @@ int main(){
         c*= a;
         --n;
     }
-    printf("\n  %d is",c);
+    printf("\n%d",c);
     
 }
