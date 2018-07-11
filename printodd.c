@@ -7,7 +7,7 @@ for(i=a+1;i<b;++i)
 {
  if(i%2==1)
  {
- printf("\t%d",i);
+ printf("%d\t",i);
  }
 }
    return 0;
