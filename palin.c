@@ -11,15 +11,9 @@ void main(){
        k= rem+k*10;
        a/=10;
     }
-   if(x==k)
-    
-        
-        printf("yes");
-    
-    else
-    
-    
+   if(x==a)
+   printf("yes");
+  else
     printf("no");
-    
     return 0;
 }
