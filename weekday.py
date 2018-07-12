@@ -1,8 +1,8 @@
-a=['mon','tues','thur','fri','sat']
-b=['sun','wed']
+a=['Monday','Tuesday','Thursday','Friday','Saturday']
+b=['Sunday','Wednesday']
 c=str(input())
 if c in a:
-    print('not a holiday')
+    print('no')
 else:
-    print('its a holiday')
+    print('yes')
       
