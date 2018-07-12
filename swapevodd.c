@@ -10,6 +10,6 @@ int main(){
      str[i] = str[i+1];
      str[i+1] = tmp;
      }
-     printf("\n%s",str);
+     printf("%s",str);
     
 }
